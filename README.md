@@ -1,5 +1,9 @@
 # PasswordPwner
 
+## Project Partners
+1. [LeemuPaani](https://github.com/LeemuPaani/)
+2. [adbullahh-exe](https://github.com/abdullahh-exe/)
+
 ## Introduction
 The aim of the project was to design a system that can assist the user to avoid passwords that have been compromised before.
 
