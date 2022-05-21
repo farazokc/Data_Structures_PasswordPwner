@@ -8,7 +8,7 @@
 The aim of the project was to design a system that can assist the user to avoid passwords that have been compromised before.
 
 ## Problem Analysis
-The main problem of the project is the speed at which the data is accessed and results are displayed to user's queries.
+The main problem of the project is the speed at which the data is accessed, and results are displayed to user's queries.
 
 ## Data Structure decision
 Tree was decided to be the data structure used to store data and keeps references to child nodes. The child nodes contain ordered variations of their parents.
@@ -38,7 +38,6 @@ The data used in this project was taken from [Have i been pwned](https://haveibe
 The solution is designed in the following steps:
 1. Sanitization of data, into needed format (only included alphanumeric characters in English)
 2. Division of data into multiple sub files ordered in alphabetical order
-The data used in this project is available [here](https://drive.google.com/drive/folders/17YTlF3fRGg9LfhnhIc-gCgVZHMs_tFoI?usp=sharing). The executable files and the data should be present in the same directory.
 
 
 ### When the program is executed:
@@ -50,6 +49,7 @@ The data used in this project is available [here](https://drive.google.com/drive
 Multiple utility functions are also included in addition to the classes.
 
 ## Executing the application:
+1. Extract all the data using file `PasswordPwner_Data.zip.001`.
 1. Run the `T6tree.exe` to start up the application.
 2. Enter string to check.
 3. Result and suggestions (if any) are displayed.
@@ -57,7 +57,7 @@ Multiple utility functions are also included in addition to the classes.
 ## Result and conclusion
 Depending on the password entered by user, the program displays output.
 * If a password is of less than 3 characters long, user is told that the password is too weak, and told to use another password.
-* If a password is found in database, the user is notified andamodified password is recommended to the user.
+* If a password is found in database, the user is notified, and a modified password is recommended to the user.
 * If the password is not found in the database, the user is told that the password is unique and can be used.
 
 The program successfully executes and performs desired functions with great speed, which accomplishes our initial project goal.
